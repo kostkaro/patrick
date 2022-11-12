@@ -16,6 +16,10 @@
     font-size: 16px;
   }
   
+  .topnav i{
+    font-size: 24px;
+  }
+
   /* Change the color of links on hover */
   .topnav a:hover {
     color: rgb(113, 113, 113);
@@ -65,9 +69,10 @@
     .topnav.responsive a {
       float: none;
       display: block;
+      font-size: 20px;
       
     }
     .topnav.responsive a:first-child {
-        margin-top: 40px;
+        margin-top: 60px;
     }
   }
