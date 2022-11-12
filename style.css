@@ -1,4 +1,9 @@
-/* Add a black background color to the top navigation */
+
+body{
+    background-image: url(/assets/background.jpg);
+}
+
+
 .topnav {
     overflow: hidden;
     position: absolute;
@@ -42,16 +47,12 @@
 
 
 
-
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
-    }
-    .nav {
-        background-color: #333;
     }
   }
   
@@ -60,6 +61,7 @@
     .topnav.responsive {
         position: absolute;
         width: 100%;
+        height: 100vh;
     }
     .topnav.responsive a.icon {
       position: absolute;
