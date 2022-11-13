@@ -144,6 +144,7 @@ img{
 }
 .about-container img{
     height: 100%;
+    width: 100%;
     cursor: auto;
 }
 .modal {
