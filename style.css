@@ -134,6 +134,18 @@ img{
     cursor: pointer;
 }
 
+.about-container{
+    margin: 50px;
+    margin-top: 0;
+    justify-content: left;
+}
+.about-container div{
+    margin-top: 50px;
+}
+.about-container img{
+    height: 100%;
+    cursor: auto;
+}
 .modal {
     z-index:1;
     display:none;
@@ -210,5 +222,14 @@ img{
 
     .hamb{
         display: none;
+    }
+
+    .about-container div{
+        width: 50%;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+    .about-container img{
+        width: 50%;
     }
 }

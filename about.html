@@ -5,23 +5,55 @@
   <title>Patrick Staudt</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- FAVICON <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💀</text></svg>"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="style.css" rel="stylesheet">
   <script src="script.js"></script>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="/index.html" class="active">
-            <img src="assets/logo.svg" width="30px">
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <img src="assets/logo.svg" width="80px">
         </a>
-        <a href="/index.html">Tattoo</a>
-        <a href="/wannados.html">Wannados</a>
-        <a href="#contact">Contact</a>
-        <a href="/about.html">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Tattoo</a></li>
+                <li><a href="#">Wannados</a> </li>
+               <!-- <li><a href="#">Contact</a></li> -->
+                <li><a href="about.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
 
-</body>
+        <div class="about-container flexbox">
+            <img src="assets/Pat.jpg" width="350px">
+            <div>
+                <h1>Hi, mein Name ist Pat.</h1>
+                <p>
+                    <br>
+                    Seit 2012 arbeite ich als Tätowierer und habe mich schon früh auf traditionelle und neotraditionelle Tätowierungen fokussiert.
+                    Später habe ich mein Portfolio durch Mandalas und ornamentale dotwork Arbeiten erweitert.
+                    <br><br>
+                    Meine Tätowierungen sind Einzelstücke und werden kein weiteres mal tätowiert, du bekommst also garantiert ein Unikat!
+                    Keine Idee? Kein Problem! In meinem 'Wannados' Storyhighlight bei Instagram findest du viele fertige Designs die nur auf eine/n Träger*in warten, schau doch mal rein.
+                    Neben diesen beiden Stilrichtungen erfülle ich dir auch gern den Wunsch nach kleineren Tattoos wie Symbole und Schriften etc.
+                    <br><br>
+                    Du findest mich in meinem Studio „Golden Days Tätowierstube“ in den Mannheimer Quadraten.
+                    Dort empfange ich dich gerne zusammen mit meinen beiden Lieblingskolleginnen Johanna und Stephie, bei gemütlicher Wohnzimmeratmosphäre.
+                    <br><br>
+                    Wenn ich dein Interesse geweckt habe, schreib mir doch einfach und erzähl mir von deiner Idee
+                    <br><br>
+                    ❤️
+                </p>
+            </div>
+        </div>
 
+    </main>
+    </body>
+    </html>
+        
