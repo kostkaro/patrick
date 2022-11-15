@@ -42,7 +42,10 @@ ul{
 .menu{
     margin-bottom: 0;
 }
-.nav{
+.menu li{
+    float: left;
+}
+/*.nav{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -50,6 +53,14 @@ ul{
     overflow: hidden;
     max-height: 0;
     transition: all .5s ease-out;
+}*/
+.nav{
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+    background-image: none;
 }
 .menu a{
     display: block;
@@ -172,12 +183,10 @@ img{
     }
     .modal-hover-opacity {
         opacity:1;
-        -webkit-backface-visibility:hidden
         }
         
         .modal-hover-opacity:hover {
         opacity:0.60;
-        -webkit-backface-visibility:hidden
         }
         
         
