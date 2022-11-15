@@ -71,12 +71,12 @@ ul{
     background-color: var(--gray);
 }
 
-/* Menu Icon */
+/* Menu Icon 
 .hamb{
     cursor: pointer;
     float: right;
     padding: 40px 20px;
-}/* Style label tag */
+}/* Style label tag 
 
 .hamb-line {
     background: var(--black);
@@ -85,7 +85,7 @@ ul{
     position: relative;
     width: 24px;
 
-} /* Style span tag */
+}*//* Style span tag 
 
 .hamb-line::before,
 .hamb-line::after{
@@ -103,11 +103,11 @@ ul{
 .hamb-line::after{
     top: -7px;
 }
-
+*/
 .side-menu {
     display: none;
 } /* Hide checkbox */
-/* Toggle menu icon */
+/* Toggle menu icon
 .side-menu:checked ~ nav{
     max-height: 100%;
     background-image: url(assets/background.jpg);
@@ -124,7 +124,7 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
-
+*/
 body {
     background-image: url(assets/background.jpg);
 }
