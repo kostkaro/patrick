@@ -235,10 +235,10 @@ img{
     }
 
     .about-container div{
-        width: 50%;
         margin-top: 50px;
         padding-left: 50px;
     }
     .about-container img{
-        width: 50%;
+        max-width: 500px;
+        margin-top: 20px;
     }
