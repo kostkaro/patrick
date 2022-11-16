@@ -224,10 +224,16 @@ img{
     .menu li{
         float: left;
     }
+    .menu .icon a{
+        padding: 10px;
+        padding-top: 25px;
+    }
     .menu a:hover{
         background-color: transparent;
         color: var(--gray);
-
+    }
+    .menu a:hover img{
+        opacity: 0.5;
     }
 
     .hamb{
