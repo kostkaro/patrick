@@ -97,6 +97,21 @@ img{
     width: 100%;
     cursor: auto;
 }
+.contact-container{
+    margin: 50px;
+    margin-top: 0;
+    justify-content: left;
+    text-align: center;
+}
+.contact-container div{
+    margin-top: 50px;
+}
+.contact-container img{
+    height: 100%;
+    width: 100%;
+    cursor: auto;
+    text-align: center;
+}
 .modal {
     z-index:1;
     display:none;
