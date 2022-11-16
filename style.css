@@ -108,7 +108,7 @@ img{
 }
 .contact-container img{
     height: 100%;
-    width: 100%;
+    width: 50%;
     cursor: auto;
     text-align: center;
 }
